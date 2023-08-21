@@ -1,6 +1,7 @@
-![Header Image](/misc assets/ReadME header.jpg?raw=true)
 
 # Satellite Segmentation CNN Training and Implementation
+![Header Image](https://github.com/xtinacarty/satellite-segmentation-final/blob/ea89db1107bad62c509251494002f84855bb86e9/misc%20assets/ReadME%20header.jpg)
+
 Final project for Application Development, Summer Semester 2023. This application takes users from start to finish in the task of creating a Semantic Segmentation CNN and applying it on satellite imagery of tea plantations in Kenya. The application is divided into two parts corresponding with the two different platforms best suited for their respective tasks: Model creation and training in Python, and model implementation on the Kenya imagery in eCognition.
 
 ## Part 1: Model Training in Python
