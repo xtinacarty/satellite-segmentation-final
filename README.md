@@ -1,3 +1,5 @@
+![Header Image](/misc assets/ReadME header.jpg?raw=true)
+
 # Satellite Segmentation CNN Training and Implementation
 Final project for Application Development, Summer Semester 2023. This application takes users from start to finish in the task of creating a Semantic Segmentation CNN and applying it on satellite imagery of tea plantations in Kenya. The application is divided into two parts corresponding with the two different platforms best suited for their respective tasks: Model creation and training in Python, and model implementation on the Kenya imagery in eCognition.
 
