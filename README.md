@@ -12,3 +12,4 @@ The first facet of the application is a guided, interactive python interface to 
 ### execute_model()
 
 ## Part 2: Model Implementation in eCognition
+The second facet of the application is performed in the software ecognition, it integrates the model trained in the Part 1 to apply the Semantic Segmentation CNN in any image. The integration has been saved in *.dcp* file, format for ecognition. The *.dcp* contain a ruleset with the pre-processing to make compatible the images for the CNN execution module.
