@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eCog.Proc UserName="Emma Garcia Boadas" Company="" Copyright="" version="20181002" use-reproducable-poly="1" project-unit="5" engine-version="10.3.1" engine-build="151" update-topology="0" distance_calculation="CG" resampling_compatibility="0" ver="0">
+	<ruleset-info>
+		<name></name>
+		<author>Emma Garcia Boadas</author>
+		<tags></tags>
+		<version></version>
+		<description></description>
+		<input></input>
+		<output></output>
+	</ruleset-info>
+	<ParamValueSetCntnr></ParamValueSetCntnr>
+	<ObjectDependencies>
+		<ImgLayers>
+			<ChnlProxyCntnr>
+				<Layers>
+					<ChnlProxy strName="Layer 1" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 2" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 3" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 4" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="temporary" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="blue_float" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="red_float" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="green_float" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Output 0" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Output 1" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Output 2" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Output 3" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Output 4" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Output 5" flags="12">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+				</Layers>
+				<Variables></Variables>
+			</ChnlProxyCntnr>
+		</ImgLayers>
+		<ThmLayers>
+			<ChnlProxyCntnr>
+				<Layers></Layers>
+				<Variables></Variables>
+			</ChnlProxyCntnr>
+		</ThmLayers>
+		<MapLvlProxyCntnr>
+			<MapLvlProxies>
+				<MapLvlProxy strName="Pixel Level" bVrbl="0">
+					<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				</MapLvlProxy>
+			</MapLvlProxies>
+			<MapLvlVrblValues></MapLvlVrblValues>
+		</MapLvlProxyCntnr>
+		<ProcVrblCntnr></ProcVrblCntnr>
+		<ClssHrchy EvalInvalid="1" MinProb="0.10000000000000000555111512312578270212" NNSlope="0.20000000000000001110223024625156540424" RdiResamplOptns="3">
+			<AllClss></AllClss>
+			<PropTree version="20100426">
+				<AllProps>
+					<PropDscr Flag="65538" strUserName="Emma Garcia Boadas" tChngTime="1692205547" group_id="ext.geom.object.prop">
+						<PropDscrId GUID="AF0D7167-ADE8-4240-AAA4-AC2C188E9AF5" InstID="Number of pixels"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params></Params>
+					</PropDscr>
+					<PropDscr Flag="0" strUserName="Emma Garcia Boadas" tChngTime="1692648964" group_id="mean.chnl.object.prop">
+						<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 1"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue type="img_chnl" value="Layer 1" scope="" name="valChnl"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="0" strUserName="Emma Garcia Boadas" tChngTime="1692648964" group_id="mean.chnl.object.prop">
+						<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 2"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue type="img_chnl" value="Layer 2" scope="" name="valChnl"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="0" strUserName="Emma Garcia Boadas" tChngTime="1692648964" group_id="mean.chnl.object.prop">
+						<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 3"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue type="img_chnl" value="Layer 3" scope="" name="valChnl"></DValue>
+						</Params>
+					</PropDscr>
+				</AllProps>
+				<UserGroups></UserGroups>
+			</PropTree>
+			<Brightness>
+				<Map MapName="main">
+					<ChnlWghtBrght>
+						<BrghtWght val="1." chnl="0"></BrghtWght>
+						<BrghtWght val="1." chnl="1"></BrghtWght>
+						<BrghtWght val="1." chnl="2"></BrghtWght>
+						<BrghtWght val="1." chnl="3"></BrghtWght>
+						<BrghtWght val="0." chnl="4"></BrghtWght>
+						<BrghtWght val="0." chnl="5"></BrghtWght>
+						<BrghtWght val="0." chnl="6"></BrghtWght>
+						<BrghtWght val="0." chnl="7"></BrghtWght>
+						<BrghtWght val="0." chnl="8"></BrghtWght>
+						<BrghtWght val="0." chnl="9"></BrghtWght>
+						<BrghtWght val="0." chnl="10"></BrghtWght>
+						<BrghtWght val="0." chnl="11"></BrghtWght>
+						<BrghtWght val="0." chnl="12"></BrghtWght>
+					</ChnlWghtBrght>
+				</Map>
+			</Brightness>
+			<AllVrblClss></AllVrblClss>
+			<AllSubClss></AllSubClss>
+			<AllTerm></AllTerm>
+		</ClssHrchy>
+		<MapVrblCntnr></MapVrblCntnr>
+		<FtrListVrblCntnr></FtrListVrblCntnr>
+		<CoordVrblCntnr></CoordVrblCntnr>
+		<ROIVrblCntnr></ROIVrblCntnr>
+		<ImgObjListVrblCntnr></ImgObjListVrblCntnr>
+		<ArrayCntnr>
+			<Arrays>
+				<Array>
+					<RlstArray name="new image layer array" type="image layer" bVrbl="0">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</RlstArray>
+					<RlstArrayData>
+						<DValue type="img_chnl" value="Layer 1" scope=""></DValue>
+						<DValue type="img_chnl" value="Layer 2" scope=""></DValue>
+						<DValue type="img_chnl" value="Layer 3" scope=""></DValue>
+					</RlstArrayData>
+				</Array>
+			</Arrays>
+			<ArrayVrbls></ArrayVrbls>
+		</ArrayCntnr>
+		<Smpls>
+			<AllClss></AllClss>
+		</Smpls>
+		<plugin-list>
+			<plugin name="eCognition Internal Process Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Filtering Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Deep Learning Plugin" version="0.1"></plugin>
+		</plugin-list>
+	</ObjectDependencies>
+	<CustProcAlgrList></CustProcAlgrList>
+	<ExternalCustProcAlgrList></ExternalCustProcAlgrList>
+	<ProcessList>
+		<ProcBase Name="Preprocessing" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+			<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+			<vrblValMaxCycle>
+				<DValue value="1." type="double"></DValue>
+			</vrblValMaxCycle>
+			<Algorithm guid="A8BA5775-CC39-4194-9A6A-A64872EE1F81">
+				<Params></Params>
+			</Algorithm>
+			<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+				<Params>
+					<DValue type="threshold" name="valThrsh"></DValue>
+					<DValue type="threshold" name="valThrsh2"></DValue>
+					<DValue value="From Parent" type="string" name="valMap"></DValue>
+				</Params>
+			</Domain>
+			<SubProc>
+				<ProcBase Name="on Active Map: layer arithmetics (val Mean Layer 1, layer Layer 1 range [0,255] to layer blue_float[32Bit float])" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="7CE4098E-BB8E-4035-BF37-1AFECA6998F4">
+						<Params>
+							<DValue type="propDscrId" name="outValue">
+								<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 1"></PropDscrId>
+							</DValue>
+							<DValue type="img_chnl" value="Layer 1" scope="" name="pSourceChnl"></DValue>
+							<DValue value="0." type="double" name="inMinValue"></DValue>
+							<DValue value="255." type="double" name="inMaxValue"></DValue>
+							<DValue type="img_chnl" value="blue_float" scope="" name="layerName"></DValue>
+							<DValue value="1" type="bool" name="bIsTargetVsbl"></DValue>
+							<DValue value="none" type="string" name="valROI"></DValue>
+							<DValue value="32" type="int" name="eDataType"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="682A3AA1-9F4F-4dae-9E44-5015DF867712">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="Active Map" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="on Active Map: layer arithmetics (val Mean Layer 2, layer Layer 2 range [0,255] to layer red_float[32Bit float])" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="7CE4098E-BB8E-4035-BF37-1AFECA6998F4">
+						<Params>
+							<DValue type="propDscrId" name="outValue">
+								<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 2"></PropDscrId>
+							</DValue>
+							<DValue type="img_chnl" value="Layer 2" scope="" name="pSourceChnl"></DValue>
+							<DValue value="0." type="double" name="inMinValue"></DValue>
+							<DValue value="255." type="double" name="inMaxValue"></DValue>
+							<DValue type="img_chnl" value="red_float" scope="" name="layerName"></DValue>
+							<DValue value="1" type="bool" name="bIsTargetVsbl"></DValue>
+							<DValue value="none" type="string" name="valROI"></DValue>
+							<DValue value="32" type="int" name="eDataType"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="682A3AA1-9F4F-4dae-9E44-5015DF867712">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="Active Map" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="on Active Map: layer arithmetics (val Mean Layer 3, layer Layer 3 range [0,255] to layer green_float[32Bit float])" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="7CE4098E-BB8E-4035-BF37-1AFECA6998F4">
+						<Params>
+							<DValue type="propDscrId" name="outValue">
+								<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 3"></PropDscrId>
+							</DValue>
+							<DValue type="img_chnl" value="Layer 3" scope="" name="pSourceChnl"></DValue>
+							<DValue value="0." type="double" name="inMinValue"></DValue>
+							<DValue value="255." type="double" name="inMaxValue"></DValue>
+							<DValue type="img_chnl" value="green_float" scope="" name="layerName"></DValue>
+							<DValue value="1" type="bool" name="bIsTargetVsbl"></DValue>
+							<DValue value="none" type="string" name="valROI"></DValue>
+							<DValue value="32" type="int" name="eDataType"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="682A3AA1-9F4F-4dae-9E44-5015DF867712">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="Active Map" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+			</SubProc>
+		</ProcBase>
+		<ProcBase Name="CNN" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+			<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+			<vrblValMaxCycle>
+				<DValue value="1." type="double"></DValue>
+			</vrblValMaxCycle>
+			<Algorithm guid="A8BA5775-CC39-4194-9A6A-A64872EE1F81">
+				<Params></Params>
+			</Algorithm>
+			<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+				<Params>
+					<DValue type="threshold" name="valThrsh"></DValue>
+					<DValue type="threshold" name="valThrsh2"></DValue>
+					<DValue value="From Parent" type="string" name="valMap"></DValue>
+				</Params>
+			</Domain>
+			<SubProc>
+				<ProcBase Name="load convolutional neural network (&quot;C:\Users\Emma Garcia Boadas\Documents\Masters_2022\Copernicus_master\Subjects\OBIA_AP\variables&quot;)" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="5D109665-9751-4F53-AC0D-D37E716EE437">
+						<Params>
+							<DValue value="1" type="int" name="m_ModelFormat"></DValue>
+							<DValue value="C:\Users\Emma Garcia Boadas\Documents\Masters_2022\Copernicus_master\Subjects\OBIA_AP\variables" type="string" name="m_vrblSavedModelPath"></DValue>
+							<DValue value="serve" type="string" name="m_vrblTagSet"></DValue>
+							<DValue value="{:Workspc.OutputRoot}\model\model.meta" type="string" name="m_vrblMetaGraphPath"></DValue>
+							<DValue value="{:Workspc.OutputRoot}\model\model.index" type="string" name="m_vrblVariablesIndexPath"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="apply convolutional neural network (SavedModel format)(Heatmap) (output prefix: Output)" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="ED5EBCE9-601A-4097-8672-9BFEFBEE8B59">
+						<Params>
+							<DValue value="0" type="bool" name="m_ecognitionModel"></DValue>
+							<DValue value="1" type="bool" name="m_bOutputAllClasses"></DValue>
+							<DValue value="0" type="bool" name="m_bOutputSegmentation"></DValue>
+							<DValue value="serving_default_input_1:0" type="string" name="m_strInputTensorName"></DValue>
+							<DValue value="StatefulPartitionedCall:0" type="string" name="m_strOutputTensorName"></DValue>
+							<DValue value="256" type="int" name="m_iTileWidth"></DValue>
+							<DValue value="256" type="int" name="m_iTileHeight"></DValue>
+							<DValue value="0" type="int" name="m_iTileMargin"></DValue>
+							<DValue value="0" type="bool" name="bUseSrcArray"></DValue>
+							<DValue type="img_chnl" value="" name="singleImageLayer"></DValue>
+							<DValue type="vector" name="vSrcLayers">
+								<Values>
+									<DValue type="img_chnl" value="blue_float" scope="" indx="0"></DValue>
+									<DValue type="img_chnl" value="green_float" scope="" indx="1"></DValue>
+									<DValue type="img_chnl" value="red_float" scope="" indx="2"></DValue>
+								</Values>
+							</DValue>
+							<DValue type="array" name="pArray"></DValue>
+							<DValue value="-inf" type="double" name="m_dThreshold"></DValue>
+							<DValue type="lvlName" name="m_mapLevel"></DValue>
+							<DValue value="1" type="bool" name="m_bDoOverwrite"></DValue>
+							<DValue value="1" type="int" name="m_vrblMinObjSize"></DValue>
+							<DValue value="1" type="bool" name="m_bConnectedOnly"></DValue>
+							<DValue value="0" type="int" name="m_range"></DValue>
+							<DValue value="0." type="double" name="m_rangeMin"></DValue>
+							<DValue value="1." type="double" name="m_rangeMax"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass1"></DValue>
+							<DValue value="" type="string" name="ClassLayer1"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass2"></DValue>
+							<DValue value="" type="string" name="ClassLayer2"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass3"></DValue>
+							<DValue value="" type="string" name="ClassLayer3"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass4"></DValue>
+							<DValue value="" type="string" name="ClassLayer4"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass5"></DValue>
+							<DValue value="" type="string" name="ClassLayer5"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass6"></DValue>
+							<DValue value="" type="string" name="ClassLayer6"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass7"></DValue>
+							<DValue value="" type="string" name="ClassLayer7"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass8"></DValue>
+							<DValue value="" type="string" name="ClassLayer8"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass9"></DValue>
+							<DValue value="" type="string" name="ClassLayer9"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass10"></DValue>
+							<DValue value="" type="string" name="ClassLayer10"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass11"></DValue>
+							<DValue value="" type="string" name="ClassLayer11"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass12"></DValue>
+							<DValue value="" type="string" name="ClassLayer12"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass13"></DValue>
+							<DValue value="" type="string" name="ClassLayer13"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass14"></DValue>
+							<DValue value="" type="string" name="ClassLayer14"></DValue>
+							<DValue value="-1" type="clssId" name="SlctClass15"></DValue>
+							<DValue value="" type="string" name="ClassLayer15"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass1"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass2"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass3"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass4"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass5"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass6"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass7"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass8"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass9"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass10"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass11"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass12"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass13"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass14"></DValue>
+							<DValue value="-1" type="clssId" name="eCogSegmClass15"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap1"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation1"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap2"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation2"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap3"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation3"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap4"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation4"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap5"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation5"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap6"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation6"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap7"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation7"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap8"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation8"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap9"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation9"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap10"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation10"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap11"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation11"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap12"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation12"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap13"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation13"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap14"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation14"></DValue>
+							<DValue value="" type="string" name="svdMdlHeatmap15"></DValue>
+							<DValue value="-1" type="clssId" name="svdMdlSegmentation15"></DValue>
+							<DValue value="Output" type="string" name="m_strOutputLayerPrefix"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="682A3AA1-9F4F-4dae-9E44-5015DF867712">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+			</SubProc>
+		</ProcBase>
+	</ProcessList>
+	<ExportedItems></ExportedItems>
+	<LcnsIds></LcnsIds>
+</eCog.Proc>
