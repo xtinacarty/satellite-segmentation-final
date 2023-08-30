@@ -28,6 +28,7 @@ At this point users are prompted to ensure they are ready to train the model and
 
 ## Part 2: Model Implementation in eCognition
 The second facet of the application is performed in the software ecognition, it integrates the model trained in the Part 1 to apply the Semantic Segmentation CNN in any image. The integration has been saved in *.dcp* file, format for ecognition. The *.dcp* contain a ruleset with the pre-processing to make compatible the images for the CNN execution module.
+![Header Image](https://github.com/xtinacarty/satellite-segmentation-final/blob/main/misc%20assets/ReadME%20rulset%20tree%20ecog.jpg)
 
 ### Set Up and Image Pre-Processing - Preprocessing
 The Preprocessing module transform the input image to a maximum pixel value of 255 and a 32Bit float image. This process needs to be done for the red band, blue band and green band. First of all is loaded the image to ecognition and the CNN_Rulsed.dcp file in to the process tree. Next is necessary to edit every process updating the output expression with the layer or mean layer of the image introduced, and the second is to select in the filter layer  the layer that corresponds to the channel corresponding to the name in the output layer (blue float, red float or green float). Finally, once all the processes are changed execute Preprocessing and it will create the new layers with the corresponding names assigned in the output layer.
