@@ -27,13 +27,15 @@ At this point users are prompted to ensure they are ready to train the model and
 
 
 ## Part 2: Model Implementation in eCognition
-The second facet of the application is performed in the software ecognition, it integrates the model trained in the Part 1 to apply the Semantic Segmentation CNN in any image. The integration has been saved in *.dcp* file, format for ecognition. The *.dcp* contain a ruleset with the pre-processing to make compatible the images for the CNN execution module.
+The second facet of the application is performed in the software ecognition, it integrates the model trained in Part 1 to apply the Semantic Segmentation CNN in any image. The integration has been saved in a *.dcp* file, format for ecognition. The *.dcp* contains a ruleset with the pre-processing to make the images for the CNN execution module.
+
 ![Header Image](https://github.com/xtinacarty/satellite-segmentation-final/blob/main/misc%20assets/ReadME%20rulset%20tree%20ecog.jpg)
 
 ### Set Up and Image Pre-Processing - Preprocessing
-The Preprocessing module transform the input image to a maximum pixel value of 255 and a 32Bit float image. This process needs to be done for the red band, blue band and green band. First of all is loaded the image to ecognition and the CNN_Rulsed.dcp file in to the process tree. Next is necessary to edit every process updating the output expression with the layer or mean layer of the image introduced, and the second is to select in the filter layer  the layer that corresponds to the channel corresponding to the name in the output layer (blue float, red float or green float). Finally, once all the processes are changed execute Preprocessing and it will create the new layers with the corresponding names assigned in the output layer.
+The Preprocessing module transforms the input image to a maximum pixel value of 255 and a 32Bit float image. This process needs to be done for the red band, blue band and green band. First of all, the image is loaded to ecognition and the CNN_Rulsed.dcp file into the process tree. Next is necessary to edit every process updating the output expression with the layer or mean layer of the image introduced, and the second is to select in the filter layer  the layer that corresponds to the channel corresponding to the name in the output layer (blue float, red float or green float). Finally, once all the processes are changed execute Preprocessing and it will create the new layers with the corresponding names assigned in the output layer.
 
 ![Header Image](https://github.com/xtinacarty/satellite-segmentation-final/blob/main/misc%20assets/ReadME%20Preprocessing%20ecog.jpg)
 ### Model Execution - CNN
-The CNN module executes the Semantic Segmentation CNN the output is a vector layer object level with the classification ready to do the post processing that you wish.  It is just needed to link the model folder created in the Part 1 inside the process (load convolutional neuronal network) on the SavedModelpath insert the path location of your model.  After this the module CNN is ready to run and users are ready to do their own analysis.  
+The CNN module executes the Semantic Segmentation CNN the output is a vector layer object level with the classification ready to do the post-processing that you wish.  It is just need to link the model folder created in Part 1 inside the process (load convolutional neuronal network) on the SavedModelpath and insert the path location of your model.  After this the module CNN is ready to run and users are ready to do their own analysis.
+
 ![Header Image](https://github.com/xtinacarty/satellite-segmentation-final/blob/main/misc%20assets/ReadME%20CNN%20ecog.jpg)
