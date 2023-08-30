@@ -28,7 +28,6 @@ At this point users are prompted to ensure they are ready to train the model and
 
 ## Part 2: Model Implementation in eCognition
 The second facet of the application is performed in the software ecognition, it integrates the model trained in the Part 1 to apply the Semantic Segmentation CNN in any image. The integration has been saved in *.dcp* file, format for ecognition. The *.dcp* contain a ruleset with the pre-processing to make compatible the images for the CNN execution module.
-![Header Image](https://github.com/xtinacarty/satellite-segmentation-final/blob/ea89db1107bad62c509251494002f84855bb86e9/misc%20assets/ReadME%20rulset%20tree%20ecog.jpg)
 ![Header Image](https://github.com/xtinacarty/satellite-segmentation-final/blob/main/misc%20assets/ReadME%20rulset%20tree%20ecog.jpg)
 
 ### Set Up and Image Pre-Processing - Preprocessing
